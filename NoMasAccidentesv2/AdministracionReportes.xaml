@@ -1,0 +1,20 @@
+﻿<Window x:Class="NoMasAccidentesv2.AdministracionReportes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoMasAccidentesv2"
+        mc:Ignorable="d"
+        Title="AdministracionReportes" Height="450" Width="800">
+    <Grid Background="LightSlateGray">
+        <Button Content="Profesional" HorizontalAlignment="Left" Margin="78,18,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.465,0.36" Height="34" Width="167" BorderBrush="Black" Background="LightSlateGray" Cursor="Hand" Padding="0,0,1,0" BorderThickness="0,0,1,0"/>
+        <Button Content="Clientes" HorizontalAlignment="Left" Margin="245,18,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.465,0.36" Height="34" Width="167" BorderBrush="Black" Background="LightSlateGray" Cursor="Hand" BorderThickness="1,0,1,0"/>
+        <Button Content="Contratos" HorizontalAlignment="Left" Margin="411,18,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.465,0.36" Height="34" Width="167" BorderBrush="Black" Background="LightSlateGray" Cursor="Hand" BorderThickness="1,0,1,0"/>
+        <Button x:Name="btnVentanaReportes" Content="Reportes" HorizontalAlignment="Left" Margin="578,18,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.465,0.36" Height="34" Width="167" BorderBrush="Black" Background="LightSlateGray" Cursor="Hand" BorderThickness="1,0,0,0" Click="btnVentanaReportes_Click"/>
+        <Label Content="Generar Reportes" HorizontalAlignment="Left" Margin="55,70,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="btn_PlanMasContratado" Content="Plan más contratado" HorizontalAlignment="Left" Margin="35,167,0,0" VerticalAlignment="Top" Height="75" Width="258" BorderBrush="Black" Background="White" FontSize="18" Click="btn_PlanMasContratado_Click"/>
+        <Button x:Name="btn_EmpresaMasAccidentes" Content="Empresa con más accidentes" HorizontalAlignment="Left" Margin="487,167,0,0" VerticalAlignment="Top" Height="75" Width="258" BorderBrush="Black" Background="White" FontSize="18" Click="btn_EmpresaMasAccidentes_Click"/>
+        <Button x:Name="btn_ExtraMasSolicitado" Content="Tipo de asesoría más realizada" Margin="267,282,0,0" VerticalAlignment="Top" Height="74" BorderBrush="Black" Background="White" FontSize="18" Click="btn_ExtraMasSolicitado_Click" HorizontalAlignment="Left" Width="258"/>
+
+    </Grid>
+</Window>
